@@ -254,7 +254,6 @@
         </File>
         <File path="C:\Windows\Temp\remove-features.ps1">            
             $selectors = @(
-            'Microsoft-RemoteDesktopConnection';
             'Recall';
             );
             $getCommand = { Get-WindowsOptionalFeature -Online; };
